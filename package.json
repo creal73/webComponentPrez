@@ -1,0 +1,20 @@
+{
+  "name": "webcomponentprez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "bs": "./bin/bs"
+  },
+  "scripts": {
+    "start": "bs serve .",
+    "export": "bs export .",
+    "pdf": "bs pdf . -o ./dist/pdf"
+  },
+  "author": "Alexandre Koelsch",
+  "license": "ISC",
+  "devDependencies": {
+    "backslide": "^2.3.0",
+    "node-sass": "^4.8.3"
+  }
+}
