@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:t}=window.mycomponent;class e{render(){return t("div",null,t("div",null,t("img",{class:"avatar",src:this.image,width:"250",height:"200"})),t("div",{class:"legend"},t("h1",null,this.message)))}static get is(){return"ak-avatar"}static get encapsulation(){return"shadow"}static get properties(){return{image:{type:String,attr:"image"},message:{type:String,attr:"message"}}}static get style(){return".avatar{border-radius:20%;display:block;margin:5px auto}.legend{text-align:center;font-style:italic;margin:5px}"}}export{e as AkAvatar};

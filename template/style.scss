@@ -83,6 +83,14 @@ blockquote {
   h1 { font-size: $font-size-impact; }
 }
 
+.impact-inv {
+  background-color: $light;
+  vertical-align: middle;
+  text-align: center;
+  &, h1, h2 { color: $text-dark; }
+  h1 { font-size: $font-size-impact; }
+}
+
 .full {
   &, h1, h2 { color: $text-light; }
   &iframe {
@@ -106,7 +114,7 @@ blockquote {
   text-align: left;
   z-index: 1;
   p { margin: 0;}
-  .impact &, .full & { display: none; }
+  .impact &, .full &, .impact-inv & { display: none; }
 }
 
 
@@ -150,6 +158,7 @@ blockquote {
 .thin { font-weight: 200; }
 .huge { font-size: 2em; }
 .big { font-size: 1.5em; }
+.medium { font-size: .9em; }
 .small { font-size: .8em; }
 .dark-bg { background-color: $dark; }
 .alt-bg { background-color: $secondary; };
