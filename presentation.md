@@ -44,9 +44,15 @@ encapsulated HTML tags to use in web pages and web apps...
 any JavaScript library or framework that works with HTML.
 ```
 
+*1ère notion de Web Component en 2011*
+
 ???
 
 tag HTML personnalisé, réutilisable et encapsulé a utiliser dans nos pages web et applications quelque soit le naviguateur et le framework JS utilisé
+
+Web Components ont été introduit par Alex Russell à la Fronteers Conference 2011 pour la première fois.
+
+Polymer, une librairie basée sur les Web Components, par Google, est sortie en 2013
 
 ---
 
@@ -366,11 +372,11 @@ export class HelloWorldComponent {
 
 class: impact
 
-# Quels intêrets ?
+# Quels intérêts ?
 
 ---
 
-# Quels intêrets ?
+# Quels intérêts ?
 
 - Syntaxe légère
 
@@ -408,6 +414,8 @@ Workbox
 
 ---
 
+exclude: true
+
 # Getting started
 
 .row.table.center[
@@ -423,8 +431,6 @@ npm v6
 use : https://www.npmjs.com/package/create-stencil
 
 ---
-
-exclude: true
 
 # Getting started
 
